@@ -1,0 +1,10 @@
+{
+  "name": "tasfica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "tasfica.com / tasfica.ca invitation homepage",
+  "scripts": {
+    "start": "python3 -m http.server 8080",
+    "deploy": "firebase deploy --only hosting --project tasfica"
+  }
+}
